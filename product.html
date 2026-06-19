@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <!--Tailwind CSS CND LINK-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+    <!--Responsive Navbar-->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Products</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Our products-->
+    <section class="text-center p-4">
+        <h1 class="text-2xl font-bold mt-5 text-center">Our Products</h1>
+        <div class="mt-4">
+            <input type="text"
+                class="border border-black p-2 m-3 w-4/5 max-w-4xl focus:outline-none placeholder-gray-400"
+                placeholder="Search for a product...">
+
+        </div>
+    </section>
+    <!--Product Image-->
+    <section class="p-10 text-center">
+
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-10">
+
+            <div class="text-center">
+                <img src="https://picsum.photos/id/152/400/500" alt="Rose Plant"
+                    class="inline rounded shadow-md hover:shadow-xl transform hover:-translate-y-2 transition duration-300 w-full h-64 object-cover">
+                <h1 class="mt-2 font-medium">purple Plant</h1>
+                <p class="text-gray-500">$20</p>
+            </div>
+
+            <div class="text-center">
+                <img src="https://picsum.photos/id/106/400/500" alt="Lily Plant"
+                    class="inline rounded shadow-md hover:shadow-xl transform hover:-translate-y-2 transition duration-300 w-full h-64 object-cover">
+                <h1 class="mt-2 font-medium">Lily Plant</h1>
+                <p class="text-gray-500">$20</p>
+            </div>
+
+            <div class="text-center">
+                <img src="https://picsum.photos/id/306/400/500" alt="Hibiscus Rose"
+                    class="inline rounded shadow-md hover:shadow-xl transform hover:-translate-y-2 transition duration-300 w-full h-64 object-cover">
+                <h1 class="mt-2 font-medium">Lotus Plant</h1>
+                <p class="text-gray-500">$20</p>
+            </div>
+
+            <div class="text-center">
+                <img src="https://picsum.photos/id/432/400/500" alt="New pet plant"
+                    class="inline rounded shadow-md hover:shadow-xl transform hover:-translate-y-2 transition duration-300 w-full h-64 object-cover">
+                <h1 class="mt-2 font-medium">New pet plant</h1>
+                <p class="text-gray-500">$80</p>
+            </div>
+
+            <div class="text-center">
+                <img src="https://media.istockphoto.com/id/1271960572/photo/indoor-houseplants-by-the-window-inside-a-beautiful-new-house-or-flat.jpg?s=1024x1024&w=is&k=20&c=wvqo8I6GuNZHC-xCDiUgjWSiYySvcPnQwcZ_fG-QrSM="
+                    class="inline rounded shadow-md hover:shadow-xl transform hover:-translate-y-2 transition duration-300 w-full h-64 object-cover">
+                <h1 class="mt-2 font-medium">Money plant</h1>
+                <p class="text-gray-500">$20</p>
+            </div>
+            <div class="text-center">
+                <img src="https://plus.unsplash.com/premium_photo-1743947642532-88ed3f9ce27b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Leaf"
+                    class="inline rounded shadow-md hover:shadow-xl transform hover:-translate-y-2 transition duration-300 w-full h-64 object-cover">
+                <h1 class="mt-2 font-medium">leaf</h1>
+                <p class="text-gray-500">$10</p>
+            </div>
+            <div class="text-center">
+                <img src="https://images.unsplash.com/photo-1487700160041-babef9c3cb55?q=80&w=1152&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Water plant"
+                    class="inline rounded shadow-md hover:shadow-xl transform hover:-translate-y-2 transition duration-300 w-full h-64 object-cover">
+                <h1 class="mt-2 font-medium">Water plant</h1>
+                <p class="text-gray-500">$40</p>
+            </div>
+
+            <div class="text-center">
+                <img src="https://images.unsplash.com/photo-1540039906769-84cf3d448bc1?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Sunflower plant"
+                    class="inline rounded shadow-md hover:shadow-xl transform hover:-translate-y-2 transition duration-300 w-full h-64 object-cover">
+                <h1 class="mt-2 font-medium">sunflower plant</h1>
+                <p class="text-gray-500">$20</p>
+            </div>
+
+        </div>
+    </section>
+    <section class="bg-green-100 p-10 flex flex-col gap-5 mt-10">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p class="text-gray-700 max-w-2xl">The Standard chunk of Lorem ipsum used since the 1500s is reproduced below
+            for those interested.</p>
+        <p class="text-gray-500 text-sm">@ 2021 Greenday.com</p>
+    </section>
+
+</body>
+
+</html>
