@@ -3,7 +3,7 @@
 
 Greenden is a modern and responsive plant shop website built using **HTML** and **Tailwind CSS**. The project focuses on creating a clean UI, responsive layouts, and interactive user experience using utility-first CSS with Tailwind.
 
-## 🚀 Features
+##  Features
 
 * Responsive design for mobile, tablet, and desktop devices
 * Modern and clean user interface
@@ -16,20 +16,20 @@ Greenden is a modern and responsive plant shop website built using **HTML** and 
 
 ```
 
-## 🛠️ Technologies Used
+ 🛠️ Technologies Used
 
 * HTML5
 * Tailwind CSS
 * CSS3
 * Responsive Web Design
 
-## 📸 Screens Included
+📸 Screens Included
 
 * Home Page
 * Product Listing Page
 * Contact Page
 
-## 🎯 Learning Outcomes
+🎯 Learning Outcomes
 
 This project helped me practice:
 
@@ -42,13 +42,13 @@ This project helped me practice:
 
 ```
 
-## 📚 Future Improvements
+##  Future Improvements
 
 * Add shopping cart functionality
 * Add search and filtering
 * Integrate backend for order management
 * Store products dynamically using a database
 
-## 👨‍💻 Author
+## Author
 
 **Nafees Taj**
