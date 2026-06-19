@@ -49,6 +49,3 @@ This project helped me practice:
 * Integrate backend for order management
 * Store products dynamically using a database
 
-## Author
-
-**Nafees Taj**
